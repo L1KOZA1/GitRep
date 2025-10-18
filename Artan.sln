@@ -1,14 +1,1 @@
-using UnitiyEngine;
-public class Simple2DKeyboard : MonoBehaviour{
-    publi float speed = 3f;
-    public float jumpPower = 8f;
-    private Rigidbody2D rb;
-    private bool canJump = true;
-    void start(){
-        rb = GetComponent<Rigidbody2D>();
-        }
-}
-
-
-
 
